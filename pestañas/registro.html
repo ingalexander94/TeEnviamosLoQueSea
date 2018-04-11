@@ -1,0 +1,79 @@
+<script src="js/validaciones.js"></script>
+<br>
+ <div class="btn-group">
+  <button type="button" class="btn btn-danger">¿Que desea registrar?</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#" id="cliente">Cliente</a>
+    <a class="dropdown-item" href="#" id="mensajero">Mensajero</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#" id="envio">Envio</a>
+  </div>
+</div>
+
+<div class="mi-contenedor">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 id="titulo"></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6  mi-informacion">
+                <div class="informacion-arriba">
+                    <div class="izquierda">
+                        <h3> Para ingresar a nuestro sitio debe estar registrado </h3>
+                        <p> Por Favor digite sus datos personales </p>
+                    </div>
+                    <div class="derecha">
+                        <i class="fas fa-address-book"></i>
+                    </div>
+                </div>
+                <div class="informacion-abajo">
+                    <form role="form" action="" method="post" class="formulario">
+                        <div class="form-group input-group" id="a1">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="icono1"></span>
+                            </div>
+                            <input type="text" name="formulario-atributo1" class="form-control" class="" placeholder="" id="atributo1" required>
+                        </div>
+                        <div class="form-group input-group" id="a2">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="icono2"></span>
+                            </div>
+                            <input type="number" name="formulario-atributo2" class="form-control" placeholder="" id="atributo2" required>
+                        </div>
+                        <div class="form-group input-group" id="a3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="icono3"></span>
+                            </div>
+                            <input type="email" name="formulario-atributo3" class="form-control" placeholder="" id="atributo3" required>
+                        </div>
+                        <div class="form-group input-group" id="a4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="icono4"></span>
+                            </div>
+                            <input type="number" name="formulario-atributo4" class="form-control" placeholder="" id="atributo4">
+                        </div>
+                        <div class="form-group input-group" id="a5">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="icono5"></span>
+                            </div>
+                            <input type="password" name="formulario-atributo5" class="form-control" placeholder="" id="atributo5" required=>
+                        </div>
+                        <div id="hojaVida">
+                            
+                        </div>
+                        <div id="nuevo">
+                            
+                        </div>
+                        <a class="btn btn-danger" href="Inicio"> CANCELAR <i class="fas fa-times-circle"></i></a>
+                        <button type="submit" class="btn btn-success"> ENVIAR <i class="fas fa-user-plus"></i> </button>                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

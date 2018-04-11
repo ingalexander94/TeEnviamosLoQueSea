@@ -1,0 +1,79 @@
+body{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background-color:gray; 
+}
+
+strong{
+    font-weight: 500;
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 100;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.mi-informacion{
+    margin-top: 12px;
+}
+
+.informacion-arriba{
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: rgba(0,0,0,0.35);
+    border-radius: 10px 10px 0 0;
+}
+
+.izquierda{
+    float: left;
+    width: 75%;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.izquierda p{
+    opacity: 0.8;
+}
+
+.derecha{
+    float: right;
+    width: 25%;
+    padding-top: 40px;
+    font-size: 66px;
+    text-align: right;
+    opacity: 0.3;
+}
+
+.informacion-abajo{
+    padding: 25px 25px 15px 25px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 0 0 10px 10px;
+}
+
+.informacion-abajo form input:valid{
+    border: 3px solid green;
+}
+.informacion-abajo form input:invalid{
+    border: 2px solid red;
+}
+
+
+@media (min-width: 995px) and (max-width:1800px) { 
+    .mi-informacion{
+        margin-left: 280px;
+    }
+    
+    .recuperar a{
+        margin-left: -250px;
+    }
+}
